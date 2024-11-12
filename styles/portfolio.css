@@ -1,41 +1,64 @@
 body {
-        font-family: 'Lato', sans-serif;
-        font-family: 'Open Sans', sans-serif;
-    }
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
+    ;
 }
+
 .nav-title {
     font-size: 45px;
     color: #181818;
     font-weight: 800;
 }
-.primary-color{
-    color:#FD6E0A ;
+
+.primary-color {
+    color: #FD6E0A;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     text-decoration: none;
     margin-right: 50px;
-    
-  
+
+
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:#474747 ;
+    color: #474747;
 }
-.btn-primary{
-    font-size:20px ;
+
+.btn-primary {
+    font-size: 20px;
     background: #FD6E0A;
     border-radius: 5px;
     border: 0;
     color: white;
-    font-weight:700 ;
-    padding: 15px  ;
+    font-weight: 700;
+    padding: 15px;
+}
+
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture {
+    width: 500px;
 }
